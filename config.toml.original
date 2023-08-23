@@ -1,4 +1,0 @@
-baseURL = 'http://fossfunders.com/'
-languageCode = 'en-us'
-title = 'FOSS Funders'
-theme = 'introduction'
