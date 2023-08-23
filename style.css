@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #F9F9F9;
+  font: normal 16pt/21pt -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* match 𝕏 widget */
+}
+
+article {
+  color: #333;
+}
+
+h1, div.content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+h1 img {
+  width: 100%;
+}
+h2, h3 {
+  margin: 0 0 12pt;
+  font-weight: bold;
+}
+h2 {
+  font-size: 21pt;
+  line-height: 24pt;
+}
+h3 {
+  margin-top: 48pt;
+  font-size: 16pt;
+  line-height: 21pt;
+  text-align: center;
+}
+
+div.content {
+  padding: 80px 0;
+}
+
+section:first-of-type div.content {
+  padding-top: 0;
+}
+section:first-of-type h2 {
+  margin-top: 0;
+}
+section:nth-child(odd) {
+  background: #333;
+  color: #F9F9F9;
+}
+
+table {
+  font-size: 14pt;
+  width: 100%;
+  text-align: center;
+}
+th {
+  white-space: nowrap;
+}
+th.right {
+  text-align: right;
+}
+td span {
+  visibility: hidden;
+}
+
+.salon iframe {
+  margin: 20px 0 0;
+  border: 1px solid #333;
+  background: white;
+  border-radius: 12px;
+}
+
+.companies {
+  padding: 80px 0;
+}
+
+ul {
+  width: 100%;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+  width: 50%;
+  float: left;
+}
+li img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+
+.footer ul {
+  width: 25%;
+}
+.footer li {
+  width: 50%;
+}
+.footer li img {
+  height: 32px;
+}
