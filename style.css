@@ -71,8 +71,11 @@ td span {
   border-radius: 12px;
 }
 
-.companies {
-  padding: 80px 0;
+.companies ul {
+  margin-top: 120px;
+}
+.companies .content {
+  padding-bottom: 160px;
 }
 
 ul {
