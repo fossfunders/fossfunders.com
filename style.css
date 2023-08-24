@@ -71,14 +71,19 @@ td span {
   border-radius: 12px;
 }
 
-.companies ul {
+.book a {
+  color: #F9F9F9;
+  text-decoration: none;
+  display: block;
   columns: 2;
 }
+
 .companies .content {
   padding-bottom: 120px;
 }
 
 ul {
+  columns: 2;
   width: 100%;
   margin: 0 auto;
 }
@@ -97,9 +102,7 @@ li img {
 .footer ul {
   width: 25%;
 }
-.footer li {
-  width: 50%;
-}
 .footer li img {
   height: 32px;
+  margin: 0 auto;
 }
