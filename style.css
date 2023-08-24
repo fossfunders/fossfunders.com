@@ -72,10 +72,10 @@ td span {
 }
 
 .companies ul {
-  margin-top: 120px;
+  columns: 2;
 }
 .companies .content {
-  padding-bottom: 160px;
+  padding-bottom: 120px;
 }
 
 ul {
@@ -84,13 +84,11 @@ ul {
 }
 li {
   list-style: none;
-  width: 50%;
-  float: left;
 }
 li img {
   height: 48px;
   display: block;
-  margin: 0 auto;
+  margin: 80px auto;
 }
 .clear {
   clear: both;
