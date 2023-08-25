@@ -21,8 +21,6 @@ h1, div.content {
   max-width: 640px;
   margin: 0 auto;
 }
-.hero {
-}
 h1 img {
   width: 100%;
   filter: drop-shadow(0px 0px 24px #F8F7F3);
@@ -121,7 +119,6 @@ li img {
   display: block;
   font-size: 14pt;
 }
-  margin: 80px auto;
 
 .footer ul {
   width: 25%;
