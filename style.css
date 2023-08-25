@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +23,8 @@ h1 img {
 }
 h2, h3 {
   margin: 0 0 12pt;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: 'Suez One', serif;
 }
 h2 {
   font-size: 21pt;
