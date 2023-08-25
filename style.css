@@ -6,20 +6,26 @@
   box-sizing: border-box;
 }
 body {
-  background: #F9F9F9;
-  font: normal 16pt/21pt -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* match 𝕏 widget */
+  font: normal 16pt/21pt sans-serif;
+  background: url('/hero.jpg') #F8F7F3;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 article {
-  color: #333;
+  color: #242521;
 }
 
 h1, div.content {
   max-width: 640px;
   margin: 0 auto;
 }
+.hero {
+}
 h1 img {
   width: 100%;
+  filter: drop-shadow(0px 0px 24px #F8F7F3);
 }
 h2, h3 {
   margin: 0 0 12pt;
@@ -27,38 +33,55 @@ h2, h3 {
   font-family: 'Suez One', serif;
 }
 h2 {
-  font-size: 21pt;
-  line-height: 24pt;
+  font-size: 24pt;
+  line-height: 32pt;
 }
 h3 {
-  margin-top: 48pt;
+  margin-top: 48px;
   font-size: 16pt;
   line-height: 21pt;
   text-align: center;
 }
+p {
+  margin: 0 0 16pt;
+  padding: 0;
+  line-height: 1.5;
+}
 
 div.content {
-  padding: 80px 0;
+  padding: 80px 40px;
 }
 
-section:first-of-type div.content {
-  padding-top: 0;
-}
 section:first-of-type h2 {
   margin-top: 0;
 }
+section:nth-child(even) {
+  background: #F8F7F3;
+  color: #242521;
+}
+section:nth-child(even) a {
+  color: #242521;
+}
 section:nth-child(odd) {
-  background: #333;
-  color: #F9F9F9;
+  background: #242521;
+  color: #F8F7F3;
+}
+section:nth-child(odd) a {
+  color: #F8F7F3;
 }
 
 table {
   font-size: 14pt;
-  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
   text-align: center;
 }
 th {
   white-space: nowrap;
+}
+th.pad {
+  padding: 0 10px;
 }
 th.right {
   text-align: right;
@@ -67,28 +90,23 @@ td span {
   visibility: hidden;
 }
 
-.salon iframe {
-  margin: 20px 0 0;
-  border: 1px solid #333;
-  background: white;
-  border-radius: 12px;
+.companies .content {
+  padding-bottom: 60px;
 }
 
+.book img {
+  margin-bottom: 40px;
+}
 .book a {
-  color: #F9F9F9;
+  color: #F8F7F3;
   text-decoration: none;
   display: block;
-  columns: 2;
-}
-
-.companies .content {
-  padding-bottom: 120px;
+  font-size: 14pt;
 }
 
 ul {
-  columns: 2;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 li {
   list-style: none;
@@ -104,8 +122,80 @@ li img {
 
 .footer ul {
   width: 25%;
+  columns: 2;
+  margin: 0 auto;
 }
 .footer li img {
   height: 32px;
   margin: 0 auto;
+}
+
+h3, table {
+  display: none;
+}
+@media (min-width: 640px) {
+  div.content {
+    padding: 80px 40px;
+  }
+  .companies ul {
+    columns: 2;
+  }
+}
+@media (min-width: 650px) {
+  div.content {
+    padding: 80px 35px;
+  }
+}
+@media (min-width: 660px) {
+  div.content {
+    padding: 80px 30px;
+  }
+}
+@media (min-width: 670px) {
+  div.content {
+    padding: 80px 25px;
+  }
+  .book a {
+    columns: 2;
+  }
+}
+@media (min-width: 680px) {
+  div.content {
+    padding: 80px 20px;
+  }
+}
+@media (min-width: 690px) {
+  div.content {
+    padding: 80px 15px;
+  }
+}
+@media (min-width: 700px) {
+  div.content {
+    padding: 80px 10px;
+  }
+}
+@media (min-width: 710px) {
+  div.content {
+    padding: 80px 5px;
+  }
+}
+@media (min-width: 720px) {
+  div.content {
+    padding: 80px 0px;
+  }
+  h3 {
+    display: block;
+  }
+  table {
+    display: table;
+  }
+}
+
+@media (max-width: 945px) {
+  body {
+    background-size: 945px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+  }
 }
