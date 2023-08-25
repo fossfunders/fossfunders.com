@@ -90,8 +90,26 @@ td span {
   visibility: hidden;
 }
 
+ul {
+  width: 100%;
+}
+li {
+  display: block;
+  list-style: none;
+}
+li img {
+  display: block;
+  height: 48px;
+}
+
 .companies .content {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+}
+.companies ul {
+  margin-top: 80px;
+}
+.companies li img {
+  margin: 0 auto 80px;
 }
 
 .book img {
@@ -103,22 +121,7 @@ td span {
   display: block;
   font-size: 14pt;
 }
-
-ul {
-  width: 100%;
-  margin: 0 auto 40px;
-}
-li {
-  list-style: none;
-}
-li img {
-  height: 48px;
-  display: block;
   margin: 80px auto;
-}
-.clear {
-  clear: both;
-}
 
 .footer ul {
   width: 25%;
