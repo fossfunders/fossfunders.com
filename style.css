@@ -193,7 +193,7 @@ h3, table {
 
 @media (max-width: 945px) {
   body {
-    background-size: 945px;
+    background-size: 175vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
