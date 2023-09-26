@@ -14,6 +14,11 @@ better, they need leaderboards or some such). What we're looking to encourage
 here is for each company to say in their own voice how they approach this
 topic, so that we can learn from each other and best practices can emerge.
 
+We are specifically looking for financial donations to Open Source projects.
+Gift-in-kind and upstream contribution and other programs are great! To be
+linked on FOSS Funders you must also support projects with direct financial
+contributions.
+
 Levels of link awesomeness:
 
 1. A tweet/post is fine to start.
