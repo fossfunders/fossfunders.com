@@ -5,7 +5,8 @@ FOSS Funders ([fossfunders.com](https://fossfunders.com/))
 
 The goal of [FOSS Funders](https://fossfunders.com/) is to **make it weird for
 companies _not_ to support Free and Open Source software** (FOSS). The strategy is to
-provide social validation by collecting logos in one place. Yay logos! :-)
+a) provide social validation by collecting logos in one place (yay logos! :-) and
+then b) to develop a [maturity model](https://en.wikipedia.org/wiki/Maturity_model).
 
 We link logos to pages where each company can give more details about their
 FOSS funding program. If we simply link to GHS or OC profiles, that doesn't add
