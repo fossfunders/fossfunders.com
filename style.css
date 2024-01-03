@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 body {
   font: normal 16pt/21pt sans-serif;
-  background: url('/hero.jpg') #F8F7F3;
+  background: url("/hero.jpg") #f8f7f3;
   background-size: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -17,18 +17,20 @@ article {
   color: #242521;
 }
 
-h1, div.content {
+h1,
+div.content {
   max-width: 640px;
   margin: 0 auto;
 }
 h1 img {
   width: 100%;
-  filter: drop-shadow(0px 0px 24px #F8F7F3);
+  filter: drop-shadow(0px 0px 24px #f8f7f3);
 }
-h2, h3 {
+h2,
+h3 {
   margin: 0 0 12pt;
   font-weight: normal;
-  font-family: 'Suez One', serif;
+  font-family: "Suez One", serif;
 }
 h2 {
   font-size: 24pt;
@@ -54,7 +56,7 @@ section:first-of-type h2 {
   margin-top: 0;
 }
 section:nth-child(even) {
-  background: #F8F7F3;
+  background: #f8f7f3;
   color: #242521;
 }
 section:nth-child(even) a {
@@ -62,10 +64,10 @@ section:nth-child(even) a {
 }
 section:nth-child(odd) {
   background: #242521;
-  color: #F8F7F3;
+  color: #f8f7f3;
 }
 section:nth-child(odd) a {
-  color: #F8F7F3;
+  color: #f8f7f3;
 }
 
 table {
@@ -114,7 +116,7 @@ li img {
   margin-bottom: 40px;
 }
 .book a {
-  color: #F8F7F3;
+  color: #f8f7f3;
   text-decoration: none;
   display: block;
   font-size: 14pt;
@@ -130,7 +132,8 @@ li img {
   margin: 0 auto;
 }
 
-h3, table {
+h3,
+table {
   display: none;
 }
 @media (min-width: 640px) {
