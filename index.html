@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FOSS Funders</title>
     <style>
-      @import url("./style.css");
+      @import url("./style.css?1");
     </style>
     <meta property="og:title" content="FOSS Funders" />
     <meta property="og:type" content="website" />
@@ -18,7 +18,11 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>💸</text></svg>"
     />
-    <script defer data-domain="fossfunders.com" src="https://plausible.io/js/script.js"></script>
+    <script
+      defer
+      data-domain="fossfunders.com"
+      src="https://plausible.io/js/script.js"
+    ></script>
   </head>
   <body>
     <article>
@@ -112,7 +116,11 @@
 
             <!--
 
-              Keep this list alphabetized, should be easy with title attr first.
+              Keep this list alphabetized, should be easy with title attr
+              first. We need an even number of list elements to balance the
+              columns for some reason, so add this to the end as needed:
+
+              <li class="empty"></li>
 
             -->
 
@@ -126,10 +134,12 @@
             <li><a title="Prisma" href="https://prismaio.notion.site/061d28a663464cd6bf39b34ca73f29ab"><img src="./logos/prisma.svg" alt="Prisma logo"></a></li>
             <li><a title="Pydantic" href="https://twitter.com/samuel_colvin/status/1702636501425647640"><img src="./logos/pydantic.svg" alt="Pydantic logo"></a></li>
             <li><a title="Sentry" href="https://blog.sentry.io/we-just-gave-500-000-dollars-to-open-source-maintainers/"><img src="./logos/sentry.svg" alt="Sentry logo"></a></li>
+            <li><a title="Sequoia" href="https://www.sequoiacap.com/article/open-source-fellowship-applications/"><img src="./logos/sequoia.svg" alt="Sequoia logo"></a></li>
             <li><a title="Sourcegraph" href="https://handbook.sourcegraph.com/departments/cto/community/#foss-contributor-fund"><img src="./logos/sourcegraph.svg" alt="Sourcegraph logo"></a></li>
             <li><a title="Spotify" href="https://engineering.atspotify.com/2023/10/announcing-the-recipients-of-the-2023-spotify-foss-fund/"><img src="./logos/spotify.png" alt="Spotify logo"></a></li>
             <li><a title="Tarsnap" href="https://www.daemonology.net/blog/2023-10-25-2%5E18-dollars-to-open-source.html"><img src="./logos/tarsnap.png" alt="Tarsnap logo"></a></li>
             <li><a title="Vercel" href="https://astro.build/blog/vercel-official-hosting-partner/"><img src="./logos/vercel.svg" alt="Vercel logo"></a></li>
+            <li class="empty"></li>
 
           </ul>
         </div>
