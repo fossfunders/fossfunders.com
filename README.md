@@ -3,10 +3,11 @@
 <img src="https://raw.githubusercontent.com/fossfunders/fossfunders.com/main/slice.jpg">
 
 The goal of [FOSS Funders](https://fossfunders.com/) is to **make it weird for
-companies _not_ to support Free and Open Source software** (FOSS). The strategy is to
-a) provide social validation by collecting logos in one place (yay logos! :-) and
-then probably eventually b) to develop a
-[maturity model](https://en.wikipedia.org/wiki/Maturity_model).
+companies _not_ to support Free and Open Source software** (FOSS). The strategy
+is to a) develop, share, and iterate on frameworks that we use to drive funding
+into the ecosystem, and b) provide social validation by collecting logos in one
+place (yay logos! :-).
+
 
 We link logos to pages where each company can give more details about their
 FOSS funding program. If we simply link to GHS or OC profiles, that doesn't add
