@@ -103,9 +103,9 @@ li {
   list-style: none;
   height: 128px;
   text-align: center;
-  &.empty {
-    display: none;
-  }
+}
+li.empty {
+  display: none;
 }
 li a {
   display: block;
@@ -113,12 +113,12 @@ li a {
   max-width: 80%;
   margin: 0 auto;
 
-  img {
-    display: block;
-    max-height: 48px;
-    max-width: 100%;
-    margin: 0 auto 80px;
-  }
+}
+li a img {
+  display: block;
+  max-height: 48px;
+  max-width: 100%;
+  margin: 0 auto 80px;
 }
 
 .companies .content {
@@ -158,13 +158,11 @@ table {
   }
   .companies ul {
     columns: 2;
-    li {
-      &.empty {
-        display: block;
-      }
-      a {
-        max-width: 60%;
-      }
+    li.empty {
+      display: block;
+    }
+    li a {
+      max-width: 60%;
     }
   }
 }
