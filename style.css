@@ -98,27 +98,33 @@ td span {
 ul {
   width: 100%;
 }
-li {
+ul li {
   display: block;
   list-style: none;
   height: 128px;
   text-align: center;
 }
-li.empty {
+ul li.empty {
   display: none;
 }
-li a {
+ul li a {
   display: block;
   max-height: 48px;
   max-width: 80%;
   margin: 0 auto;
 
 }
-li a img {
+ul li a img {
   display: block;
   max-height: 48px;
   max-width: 100%;
   margin: 0 auto 80px;
+}
+ol {
+  margin: 0 0 0 36pt;
+}
+ol li {
+  margin: 0 0 12pt;
 }
 
 .companies .content {
