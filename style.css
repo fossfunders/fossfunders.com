@@ -70,31 +70,6 @@ section:nth-child(odd) a {
   color: #f8f7f3;
 }
 
-table {
-  font-size: 14pt;
-  margin: 0 auto;
-  border-collapse: collapse;
-  border-spacing: 0;
-  text-align: center;
-}
-th.pad {
-  padding: 0 10px;
-  font-weight: normal;
-}
-th.right {
-  text-align: right;
-  padding-right: 10px;
-  border-right: 1px solid black;
-  font-weight: normal;
-}
-th.left {
-  text-align: left;
-  padding-left: 10px;
-}
-td span {
-  visibility: hidden;
-}
-
 ul {
   width: 100%;
 }
@@ -124,8 +99,21 @@ li a img {
 .companies .content {
   padding-bottom: 80px;
 }
-.companies ul {
+.companies ul.logos {
   margin-top: 80px;
+}
+.companies ul.text {
+  margin-top: 0;
+}
+.companies ul.text li {
+  text-align: center;
+  height: auto;
+}
+.companies ul.text li a {
+  display: block;
+  padding: 12pt;
+  max-height: none;
+  max-width: none;
 }
 
 .book img {
@@ -148,15 +136,11 @@ li a img {
   margin: 0 auto;
 }
 
-h3,
-table {
-  display: none;
-}
 @media (min-width: 640px) {
   div.content {
     padding: 80px 40px;
   }
-  .companies ul {
+  .companies ul.logos {
     columns: 2;
     li.empty {
       display: block;
@@ -207,12 +191,6 @@ table {
 @media (min-width: 720px) {
   div.content {
     padding: 80px 0px;
-  }
-  h3 {
-    display: block;
-  }
-  table {
-    display: table;
   }
 }
 
