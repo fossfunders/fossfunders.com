@@ -23,7 +23,7 @@ contributions.
 
 Levels of link awesomeness:
 
-1. A tweet/post is fine to start.
+1. ~A tweet/post is fine to start.~ (*We're no longer accepting these but still have some on the site.*)
 1. Even better is a blog post about why this is important to your company, how
    you are approaching the topic, why you picked the projects you did, what
    platforms you are using, maybe plans for the future, etc.
